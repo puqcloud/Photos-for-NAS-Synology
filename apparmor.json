@@ -1,0 +1,11 @@
+{
+    "policy_groups": [
+        "networking",
+        "keep-display-on",
+        "video",
+        "audio",
+        "picture_files",
+        "video_files"
+    ],
+    "policy_version": 20.04
+}

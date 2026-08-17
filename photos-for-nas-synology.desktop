@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Photos for NAS Synology
+Comment=Unofficial Synology Photos client for Ubuntu Touch
+Exec=./photos-for-nas-synology %U
+Icon=photos-for-nas-synology.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Default-Department=Utility

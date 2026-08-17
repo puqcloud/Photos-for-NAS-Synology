@@ -1,0 +1,15 @@
+{
+    "name": "photos-for-nas-synology.puqsoftware",
+    "description": "An unofficial, native Ubuntu Touch application to connect, view, and manage your photos on Synology NAS.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Photos for NAS Synology",
+    "hooks": {
+        "photos-for-nas-synology": {
+            "apparmor": "apparmor.json",
+            "desktop": "photos-for-nas-synology.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "framework": "ubuntu-sdk-20.04.1",
+    "maintainer": "PUQ Software <info@puqsoftware.com>"
+}

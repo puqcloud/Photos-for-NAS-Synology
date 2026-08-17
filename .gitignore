@@ -1,0 +1,38 @@
+# Clickable build files
+.clickable/
+build/
+*.click
+
+# Project documentation (local dev notes)
+docs/
+
+# Project specific sensitive references & credentials
+references/
+dev-server
+*.log
+*.env
+*.key
+*.pem
+
+# C++ / Qt / QML build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.qmlc
+*.jsc
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.CMakeCache.txt
+
+# Python / IDE / OS
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
+.agents/

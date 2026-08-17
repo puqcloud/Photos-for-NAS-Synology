@@ -1,0 +1,5 @@
+clickable_minimum_required: 8.0
+builder: cmake
+skip_review: true
+scripts:
+  clean: rm -rf build .clickable *.click
